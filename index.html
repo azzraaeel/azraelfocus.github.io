@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-  body {
-    background-color: black;
-    color: white; /* Set default text color */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Set the height of the container to the viewport height */
-    margin: 0; /* Remove default margin */
-  }
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-  h1 {
-    color: red;
-  }
+    h1 {
+      color: red;
+    }
 
-  #middle-paragraph {
-    text-align: center;
-    margin-top: 20px; /* Adjust as needed */
-  }
-</style>
+    #middle-paragraph {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h3 {
+      display: flex;
+      justify-content: space-between;
+      width:25%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the links horizontally */
+    }
+
+    /* Added style for links */
+    h3 a {
+      color: red;
+      text-decoration: none;
+    }
+
+    h3 a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>FOCUS!</h1>
+  <h1>FOCUS!</h1>
 
-<p id="middle-paragraph">You need to chase your dreams, You still haven't proved anything to yourself.</p>
+  <p id="middle-paragraph">You need to chase your dreams, You still haven't proved anything to yourself.</p>
+
+  <!-- Updated the structure to use a single h3 element for the links -->
+  <h3>
+    <a href="https://www.youtube.com/watch?v=6LzuIch-wQo&list=PLG49S3nxzAnmpdmX7RoTOyuNJQAb-r-gd" target="_blank">Network+</a>
+    <a href="https://adventofcyber.com/" target="_blank">TryHackMe</a>
+    <a href="https://codewars.com/" target="_blank">Codewars</a>
+  </h3>
 
 </body>
+
 </html>
